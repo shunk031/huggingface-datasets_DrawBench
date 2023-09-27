@@ -14,8 +14,8 @@ _CITATION = """\
 
 _SHORT_DESCRIPTION = "DrawBench is a new comprehensive and challenging evaluation benchmark for the text-to-image task."
 
-_DESCRIPTION = f"""\
-{_SHORT_DESCRIPTION}. This benchmark contains 11 categories of prompts, testing different capabilities of models such as the ability to faithfully render different colors, numbers of objects, spatial relations, text in the scene, and unusual interactions between objects
+_DESCRIPTION = """\
+DrawBench is a comprehensive and challenging set of prompts that support the evaluation and comparison of text-to-image models. This benchmark contains 11 categories of prompts, testing different capabilities of models such as the ability to faithfully render different colors, numbers of objects, spatial relations, text in the scene, and unusual interactions between objects.\
 """
 
 _HOMEPAGE = "https://imagen.research.google/"
@@ -27,7 +27,7 @@ _CATEGORIES = [
     "Counting",
     "DALL-E",
     "Descriptions",
-    "Gary Marcus et al. ",
+    "Gary Marcus et al.",
     "Misspellings",
     "Positional",
     "Rare Words",
